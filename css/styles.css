@@ -1,0 +1,119 @@
+@import url(media.css);
+@import url(form.css);
+@import url(post.css);
+* {
+  font-size: 100%;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+.card-title {
+  font-family: sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 250;
+  text-align: left;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  background-color: #ffffff;
+  height: 85px;
+  padding: 3px;
+}
+
+#logo {
+  width: 300px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav a {
+  color: #00f;
+  padding: 9px;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.grid-images {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 340px 340px 340px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #495978;
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 120%;
+  border: 1px solid #000000;
+}
+
+figure {
+  margin: 5px;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+figcaption {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  font-size: 14px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #495978;
+  padding: 5px;
+  text-align: center;
+  margin-top: 7px;
+  color: #ffffff;
+}
