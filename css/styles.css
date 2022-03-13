@@ -40,7 +40,7 @@ p {
 
 .container {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -55,7 +55,8 @@ header {
 }
 
 #logo {
-  width: 300px;
+  width: 100%;
+  max-width: 200px;
 }
 
 ul {
@@ -73,13 +74,13 @@ nav a {
 .grid-images {
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: 340px 340px 340px;
   justify-content: center;
 }
 
 .card {
   background-color: #495978;
   border-radius: 5px;
+  width: 100%;
   padding: 3px;
   font-size: 120%;
   border: 1px solid #000000;

@@ -1,5 +1,29 @@
-@media all and (min-width: 500px) {
-  header footer article {
-    display: flex;
+@media only screen and (max-width: 767px) {
+  .grid-images {
+    grid-template-columns: 1fr;
+    padding: 5px;
+  }
+
+  header {
+    flex-direction: column;
+  }
+  .post-page {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid-images {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .post-page {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .grid-images {
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
   }
 }
